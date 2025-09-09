@@ -192,7 +192,7 @@ export default function HisabGharLanding() {
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
                 <Button
                   size="lg"
-                  className="text-sm sm:text-base lg:text-lg px-4 sm:px-6 lg:px-8 py-3 sm:py-4 lg:py-6 bg-primary hover:bg-primary/90 w-full sm:w-auto"
+                  className="text-sm sm:text-base cursor-pointer lg:text-lg px-4 sm:px-6 lg:px-8 py-3 sm:py-4 lg:py-6 bg-primary hover:bg-primary/90 w-full sm:w-auto"
                   onClick={handleDownload}
                   disabled={isLoading || !downloadUrl}
                 >
@@ -332,7 +332,7 @@ export default function HisabGharLanding() {
             <div className="flex flex-col items-center space-y-6">
               <Button
                 size="lg"
-                className="text-base sm:text-lg lg:text-xl px-6 sm:px-8 lg:px-12 py-4 sm:py-6 lg:py-8 bg-primary hover:bg-primary/90 w-full max-w-sm sm:max-w-md lg:max-w-lg min-h-[3rem] sm:min-h-[3.5rem] lg:min-h-[4rem]"
+                className="text-base sm:text-lg cursor-pointer lg:text-xl px-6 sm:px-8 lg:px-12 py-4 sm:py-6 lg:py-8 bg-primary hover:bg-primary/90 w-full max-w-sm sm:max-w-md lg:max-w-lg min-h-[3rem] sm:min-h-[3.5rem] lg:min-h-[4rem]"
                 onClick={handleDownload}
                 disabled={isLoading || !downloadUrl}
               >
